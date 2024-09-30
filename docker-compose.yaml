@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  currency-exchange:
+    image: currency-exchange-image
+    ports:
+      - "8000:8000"
